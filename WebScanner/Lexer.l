@@ -1,0 +1,2 @@
+%%
+foo	printf("bar");
