@@ -15,7 +15,7 @@ url     foo
     fprintf(filePointer, "Found URL: %s\n", yytext);
 }
 
-.       ;
+.|\n       ;
 
 %%
 
