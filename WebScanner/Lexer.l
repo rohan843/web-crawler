@@ -1,2 +1,0 @@
-%%
-foo	printf("bar");
