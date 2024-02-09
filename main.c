@@ -7,7 +7,7 @@ FILE *filePointer = NULL;
 
 int main()
 {
-    system("curl -o input.txt https://example.com");
+    system("curl -so input.txt https://example.com");
     yyrestart(fopen("input.txt", "r"));
 
     filePointer = fopen("output.txt", "w");
